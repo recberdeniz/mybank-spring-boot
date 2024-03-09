@@ -1,0 +1,15 @@
+version: '2.24.5'
+
+services:
+  mybank-api:
+    image: 'mybank-api:0.0.1'
+    container_name: mybank-api
+    ports:
+      - 8080:8080
+
+  mybank-fe:
+    image: 'mybank-fe:0.0.1'
+    container_name: mybank-fe
+    ports:
+      - 3000:3000
+

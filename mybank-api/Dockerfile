@@ -8,6 +8,6 @@ COPY src src
 RUN ./mvnw package
 
 FROM openjdk:8
-WORKDIR mybank
+WORKDIR mybank-api
 COPY --from=build target/*.jar mybank.jar
 ENTRYPOINT ["java", "-jar", "mybank.jar"]

@@ -5,102 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d79ffe4-ca35-4b46-b9fe-cde9541ab6aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mybank-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/MybankApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/AccountCustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/AccountDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/CustomerAccountDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/converter/AccountCustomerDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/converter/AccountDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/converter/CustomerAccountDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/converter/CustomerDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/BaseAccountRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/BaseCustomerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/CreateAccountRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/CreateCustomerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/UpdateAccountRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/UpdateCustomerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/AccountNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/CustomerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/GeneralExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/InsufficientBalanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/InvalidAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/InvalidCityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/InvalidCurrencyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/model/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/IntegrationTestSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/MybankApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/TestSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/controller/AccountControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/controller/CustomerControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/service/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/service/CustomerServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/MybankApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/controller/AccountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/controller/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/AccountCustomerDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/AccountDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/CustomerAccountDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/CustomerDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/converter/AccountCustomerDtoConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/converter/AccountDtoConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/converter/CustomerAccountDtoConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/converter/CustomerDtoConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/BaseAccountRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/BaseCustomerRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/CreateAccountRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/CreateCustomerRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/UpdateAccountRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/UpdateCustomerRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/AccountNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/CustomerNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/GeneralExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/InsufficientBalanceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/InvalidAmountException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/InvalidCityException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/InvalidCurrencyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/model/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/model/City.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/model/Currency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/repository/AccountRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/service/AccountService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/service/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/IntegrationTestSupport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/MybankApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/TestSupport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/controller/AccountControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/controller/CustomerControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/service/AccountServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/service/CustomerServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybank-api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/mybank-api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybank-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mybank-fe/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,8 +85,13 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/blue_/mybank/mybank-fe",
+    "last_opened_file_path": "C:/Users/blue_/mybank/mybank-api",
     "settings.editor.selected.configurable": "Docker"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "yaml"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
