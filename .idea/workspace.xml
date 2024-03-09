@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d79ffe4-ca35-4b46-b9fe-cde9541ab6aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mybank-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/MybankApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/AccountCustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/AccountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/CustomerAccountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/converter/AccountCustomerDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/converter/AccountDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/converter/CustomerAccountDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/converter/CustomerDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/BaseAccountRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/BaseCustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/CreateAccountRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/CreateCustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/UpdateAccountRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/dto/requests/UpdateCustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/GeneralExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/InsufficientBalanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/InvalidAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/InvalidCityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/exception/InvalidCurrencyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/model/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/java/com/mybankapp/mybank/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/IntegrationTestSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/MybankApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/TestSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/controller/AccountControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/controller/CustomerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/service/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybank-api/src/test/java/com/mybankapp/mybank/service/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/MybankApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/controller/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/AccountCustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/AccountDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/CustomerAccountDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/CustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/converter/AccountCustomerDtoConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/converter/AccountDtoConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/converter/CustomerAccountDtoConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/converter/CustomerDtoConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/BaseAccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/BaseCustomerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/CreateAccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/CreateCustomerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/UpdateAccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/dto/requests/UpdateCustomerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/AccountNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/CustomerNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/GeneralExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/InsufficientBalanceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/InvalidAmountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/InvalidCityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/exception/InvalidCurrencyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/model/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/model/Currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybankapp/mybank/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/IntegrationTestSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/MybankApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/TestSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/controller/AccountControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/controller/CustomerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/service/AccountServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybankapp/mybank/service/CustomerServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2cGuQeTla5uT5JIt2M44vvhQVzo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MybankApplication.executor": "Run",
+    "JUnit.AccountControllerTest.whenCreateAccountWithNullCurrencyRequestAndExistingCustomerId_ItShouldBadRequest.executor": "Run",
+    "JUnit.AccountControllerTest.whenCreateAccountWithValidRequestAndExistCustomerId_ItShouldReturnAccountDto.executor": "Run",
+    "JUnit.AccountControllerTest.whenUpdateAccountWithInvalidAmountRequest_ItShouldReturnBadRequest.executor": "Run",
+    "JUnit.AccountControllerTest.whenWithdrawAccountWithInvalidAmountRequest_ItShouldReturnBadRequest.executor": "Run",
+    "JUnit.AccountServiceTest.executor": "Coverage",
+    "JUnit.AccountServiceTest.whenCreateMethodCalledWithExistCustomerAndInValidCurrency_itShouldThrowInvalidCurrencyException.executor": "Debug",
+    "JUnit.AccountServiceTest.whenCreateMethodCalledWithExistCustomerAndValidCurrency_itShouldReturnValidAccountDto.executor": "Run",
+    "JUnit.AccountServiceTest.whenCreateMethodCalledWithNotExistCustomerId_itShouldThrowCustomerNotFoundException.executor": "Run",
+    "JUnit.AccountServiceTest.whenDepositCalledWithInvalidAmountThatMinusAmount_itShouldThrowInvalidAmountException.executor": "Run",
+    "JUnit.AccountServiceTest.whenDepositCalledWithValidAmount_itShouldReturnUpdatedAccountDto.executor": "Run",
+    "JUnit.AccountServiceTest.whenGetAllAccountsCalledWithEmptyAccountList_itShouldReturnEmptyList.executor": "Run",
+    "JUnit.AccountServiceTest.whenGetAllAccountsCalledWithExistingAccounts_itShouldReturnAccounDtoList.executor": "Run",
+    "JUnit.AccountServiceTest.whenWithdrawCalledWithAmountThatMoreThanBalance_itShouldThrowInsufficientBalanceException.executor": "Run",
+    "JUnit.AccountServiceTest.whenWithdrawCalledWithCorrectAmount_itShouldReturnUpdatedAccountDto.executor": "Run",
+    "JUnit.AccountServiceTest.whenWithdrawCalledWithInvalidAmountThatMinusAmount_itShouldThrowInvalidAmountException.executor": "Run",
+    "JUnit.AccountServiceTest.whenWithdrawCalledWithMinusAmount_itShouldThrowInvalidAmountException.executor": "Run",
+    "JUnit.CustomerControllerTest.createCustomerRequestWithInvalidCity_ShouldReturnBadRequest.executor": "Run",
+    "JUnit.CustomerControllerTest.executor": "Run",
+    "JUnit.CustomerControllerTest.findExistCustomerWithId_ShouldReturnCustomerDto.executor": "Run",
+    "JUnit.CustomerControllerTest.findExistCustomerWithId_ShouldReturnResponseOK.executor": "Run",
+    "JUnit.CustomerControllerTest.findNonExistCustomerWithId_ShouldReturnHttpNotFound.executor": "Run",
+    "JUnit.CustomerServiceTest.executor": "Coverage",
+    "JUnit.CustomerServiceTest.testFindByCustomerId_WhenCustomerIdDoesNotExist_shouldThrowCustomerNotFoundException.executor": "Run",
+    "JUnit.CustomerServiceTest.testFindByCustomerId_WhenCustomerIdExist_shouldReturnCustomer.executor": "Run",
+    "JUnit.CustomerServiceTest.whenCreateCustomerCalledWithInvalidCustomerRequest_itShouldThrowInvalidCityException.executor": "Run",
+    "JUnit.CustomerServiceTest.whenCreateCustomerCalledWithValidCustomerRequest_itShouldReturnValidCustomerDto.executor": "Run",
+    "JUnit.CustomerServiceTest.whenCreateCustomerCalledWithValidRequest_itShouldReturnValidCustomerDto.executor": "Run",
+    "JUnit.CustomerServiceTest.whenGetAllCustomersCalled_ifExistsCustomerList_itShouldReturnCustomerDtoList.executor": "Run",
+    "JUnit.CustomerServiceTest.whenGetAllCustomersCalled_ifThereIsNoRegisteredCustomer_itShouldReturnEmptyList.executor": "Run",
+    "JUnit.CustomerServiceTest.whenUpdateCustomerCalledWithNotExistCustomerId_itShouldThrowCustomerNotFoundException.executor": "Run",
+    "JUnit.CustomerServiceTest.whenUpdateCustomerCalledWithValidUpdateCustomerRequest_itShouldReturnValidCustomerDto.executor": "Run",
+    "Maven.mybank [clean,install].executor": "Run",
+    "Maven.mybank.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/blue_/mybank/mybank-fe",
+    "settings.editor.selected.configurable": "Docker"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mybankapp.mybank.controller" />
+      <recent name="com.mybankapp.mybank.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MybankApplication">
+    <configuration name="MybankApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybankapp.mybank.MybankApplication" />
+      <module name="mybank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybankapp.mybank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountControllerTest.whenUpdateAccountWithInvalidAmountRequest_ItShouldReturnBadRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybankapp.mybank.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybankapp.mybank.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.mybankapp.mybank.controller.AccountControllerTest" />
+      <option name="METHOD_NAME" value="whenUpdateAccountWithInvalidAmountRequest_ItShouldReturnBadRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountControllerTest.whenWithdrawAccountWithInvalidAmountRequest_ItShouldReturnBadRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybankapp.mybank.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybankapp.mybank.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.mybankapp.mybank.controller.AccountControllerTest" />
+      <option name="METHOD_NAME" value="whenWithdrawAccountWithInvalidAmountRequest_ItShouldReturnBadRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybankapp.mybank.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybankapp.mybank.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mybankapp.mybank.service.AccountServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybankapp.mybank.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybankapp.mybank.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mybankapp.mybank.service.CustomerServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MybankApplication" />
+        <item itemvalue="JUnit.CustomerServiceTest" />
+        <item itemvalue="JUnit.AccountServiceTest" />
+        <item itemvalue="JUnit.AccountControllerTest.whenWithdrawAccountWithInvalidAmountRequest_ItShouldReturnBadRequest" />
+        <item itemvalue="JUnit.AccountControllerTest.whenUpdateAccountWithInvalidAmountRequest_ItShouldReturnBadRequest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d79ffe4-ca35-4b46-b9fe-cde9541ab6aa" name="Changes" comment="" />
+      <created>1707750222338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707750222338</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mybank$AccountServiceTest.ic" NAME="AccountServiceTest Coverage Results" MODIFIED="1709112070115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mybankapp.mybank.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mybank$AccountServiceTest_whenCreateMethodCalledWithExistCustomerAndValidCurrency_itShouldReturnValidAccountDto.ic" NAME="AccountServiceTest.whenCreateMethodCalledWithExistCustomerAndValidCurrency_itShouldReturnValidAccountDto Coverage Results" MODIFIED="1708009128130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mybankapp.mybank.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mybank$CustomerServiceTest.ic" NAME="CustomerServiceTest Coverage Results" MODIFIED="1709112223793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mybankapp.mybank.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>
