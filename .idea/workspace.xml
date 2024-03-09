@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d79ffe4-ca35-4b46-b9fe-cde9541ab6aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybank-api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/mybank-api/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybank-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mybank-fe/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="1d79ffe4-ca35-4b46-b9fe-cde9541ab6aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,6 +202,10 @@
       <updated>1707750222338</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docker-compose and readme file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose and readme file added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mybank$AccountServiceTest.ic" NAME="AccountServiceTest Coverage Results" MODIFIED="1709112070115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

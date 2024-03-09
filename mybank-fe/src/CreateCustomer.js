@@ -59,7 +59,7 @@ class CreateCustomer extends Component{
             <div>
                 <AppNavbar/>
                 {title}
-                <Container>
+                <Container className='d-flex justify-content-center'>
                 {error && (
                     <div className="alert alert-danger">
                     {"Error! " + error.message}

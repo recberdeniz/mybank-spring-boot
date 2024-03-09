@@ -48,9 +48,9 @@ class AccountWithraw extends Component{
             // Redirect the user after successful withdrawal
             this.props.history.push('/v1/account/');
         } catch (error) {
-            
+            console.error(error.response.data.message);
             if (error.response && error.response.status === 402) {
-                this.setState({error: error.response.data.message}); // User-friendly message
+                this.setState({error: 'Insufficient balance!'}); // User-friendly message
             } else {
                 this.setState({error: 'Amount must not be negative!'}); // Generic message for other errors
             }
